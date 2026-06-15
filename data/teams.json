@@ -1,0 +1,482 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-06-15",
+  "source_strategy": {
+    "primary": "VLR.gg",
+    "secondary": "Liquipedia"
+  },
+  "scope": "VCT 2026 four regions (Americas, EMEA, Pacific, China)",
+  "regions": {
+    "AMERICAS": {
+      "label": "Americas",
+      "teams": [
+        {
+          "id": "g2-esports",
+          "name": "G2 Esports",
+          "short_name": "G2",
+          "region": "AMERICAS",
+          "aliases": ["G2 Esports", "G2"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/11058/g2-esports",
+          "vlr_team_id": 11058,
+          "current_roster": ["g2-player-1", "g2-player-2", "g2-player-3", "g2-player-4", "g2-player-5"]
+        },
+        {
+          "id": "nrg",
+          "name": "NRG",
+          "short_name": "NRG",
+          "region": "AMERICAS",
+          "aliases": ["NRG"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/1034/nrg",
+          "vlr_team_id": 1034,
+          "current_roster": ["nrg-player-1", "nrg-player-2", "nrg-player-3", "nrg-player-4", "nrg-player-5"]
+        },
+        {
+          "id": "furia",
+          "name": "FURIA",
+          "short_name": "FUR",
+          "region": "AMERICAS",
+          "aliases": ["FURIA", "Furia"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/2406/furia",
+          "vlr_team_id": 2406,
+          "current_roster": ["furia-player-1", "furia-player-2", "furia-player-3", "furia-player-4", "furia-player-5"]
+        },
+        {
+          "id": "leviatan",
+          "name": "LEVIATÁN",
+          "short_name": "LEV",
+          "region": "AMERICAS",
+          "aliases": ["LEVIATÁN", "Leviatan", "Lev"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/2359/leviat-n",
+          "vlr_team_id": 2359,
+          "current_roster": ["leviatan-player-1", "leviatan-player-2", "leviatan-player-3", "leviatan-player-4", "leviatan-player-5"]
+        },
+        {
+          "id": "100-thieves",
+          "name": "100 Thieves",
+          "short_name": "100T",
+          "region": "AMERICAS",
+          "aliases": ["100 Thieves", "100T", "Hundred Thieves"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/120/100-thieves",
+          "vlr_team_id": 120,
+          "current_roster": ["100t-player-1", "100t-player-2", "100t-player-3", "100t-player-4", "100t-player-5"]
+        },
+        {
+          "id": "mibr",
+          "name": "MIBR",
+          "short_name": "MIBR",
+          "region": "AMERICAS",
+          "aliases": ["MIBR"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/7386/mibr",
+          "vlr_team_id": 7386,
+          "current_roster": ["mibr-player-1", "mibr-player-2", "mibr-player-3", "mibr-player-4", "mibr-player-5"]
+        },
+        {
+          "id": "kru-esports",
+          "name": "KRÜ Esports",
+          "short_name": "KRU",
+          "region": "AMERICAS",
+          "aliases": ["KRÜ Esports", "KRU"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/2355/kr-esports",
+          "vlr_team_id": 2355,
+          "current_roster": ["kru-player-1", "kru-player-2", "kru-player-3", "kru-player-4", "kru-player-5"]
+        },
+        {
+          "id": "loud",
+          "name": "LOUD",
+          "short_name": "LOUD",
+          "region": "AMERICAS",
+          "aliases": ["LOUD"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/6961/loud",
+          "vlr_team_id": 6961,
+          "current_roster": ["loud-player-1", "loud-player-2", "loud-player-3", "loud-player-4", "loud-player-5"]
+        },
+        {
+          "id": "envy",
+          "name": "ENVY",
+          "short_name": "NV",
+          "region": "AMERICAS",
+          "aliases": ["ENVY", "Envy"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/427/envy",
+          "vlr_team_id": 427,
+          "current_roster": ["envy-player-1", "envy-player-2", "envy-player-3", "envy-player-4", "envy-player-5"]
+        },
+        {
+          "id": "sentinels",
+          "name": "Sentinels",
+          "short_name": "SEN",
+          "region": "AMERICAS",
+          "aliases": ["Sentinels", "SEN"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/2/sentinels",
+          "vlr_team_id": 2,
+          "current_roster": ["sen-player-1", "sen-player-2", "sen-player-3", "sen-player-4", "sen-player-5"]
+        },
+        {
+          "id": "cloud9",
+          "name": "Cloud9",
+          "short_name": "C9",
+          "region": "AMERICAS",
+          "aliases": ["Cloud9", "C9"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/188/cloud9",
+          "vlr_team_id": 188,
+          "current_roster": ["c9-player-1", "c9-player-2", "c9-player-3", "c9-player-4", "c9-player-5"]
+        }
+      ]
+    },
+    "EMEA": {
+      "label": "EMEA",
+      "teams": [
+        {
+          "id": "bbl-esports",
+          "name": "BBL Esports",
+          "short_name": "BBL",
+          "region": "EMEA",
+          "aliases": ["BBL Esports", "BBL"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/397/bbl-esports",
+          "vlr_team_id": 397,
+          "current_roster": ["bbl-player-1", "bbl-player-2", "bbl-player-3", "bbl-player-4", "bbl-player-5"]
+        },
+        {
+          "id": "fut-esports",
+          "name": "FUT Esports",
+          "short_name": "FUT",
+          "region": "EMEA",
+          "aliases": ["FUT Esports", "FUT"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/1184/fut-esports",
+          "vlr_team_id": 1184,
+          "current_roster": ["fut-player-1", "fut-player-2", "fut-player-3", "fut-player-4", "fut-player-5"]
+        },
+        {
+          "id": "team-liquid",
+          "name": "Team Liquid",
+          "short_name": "TL",
+          "region": "EMEA",
+          "aliases": ["Team Liquid", "Liquid", "TL"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/474/team-liquid",
+          "vlr_team_id": 474,
+          "current_roster": ["tl-player-1", "tl-player-2", "tl-player-3", "tl-player-4", "tl-player-5"]
+        },
+        {
+          "id": "fnatic",
+          "name": "FNATIC",
+          "short_name": "FNC",
+          "region": "EMEA",
+          "aliases": ["FNATIC", "Fnatic", "FNC"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/2593/fnatic",
+          "vlr_team_id": 2593,
+          "current_roster": ["fnc-player-1", "fnc-player-2", "fnc-player-3", "fnc-player-4", "fnc-player-5"]
+        },
+        {
+          "id": "eternal-fire",
+          "name": "Eternal Fire",
+          "short_name": "EF",
+          "region": "EMEA",
+          "aliases": ["Eternal Fire", "EF"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/6392/eternal-fire",
+          "vlr_team_id": 6392,
+          "current_roster": ["ef-player-1", "ef-player-2", "ef-player-3", "ef-player-4", "ef-player-5"]
+        },
+        {
+          "id": "gentle-mates",
+          "name": "Gentle Mates",
+          "short_name": "GM",
+          "region": "EMEA",
+          "aliases": ["Gentle Mates", "GM"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/12694/gentle-mates",
+          "vlr_team_id": 12694,
+          "current_roster": ["gm-player-1", "gm-player-2", "gm-player-3", "gm-player-4", "gm-player-5"]
+        },
+        {
+          "id": "natus-vincere",
+          "name": "Natus Vincere",
+          "short_name": "NAVI",
+          "region": "EMEA",
+          "aliases": ["Natus Vincere", "NAVI", "NaVi"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/4915/natus-vincere",
+          "vlr_team_id": 4915,
+          "current_roster": ["navi-player-1", "navi-player-2", "navi-player-3", "navi-player-4", "navi-player-5"]
+        },
+        {
+          "id": "giantx",
+          "name": "GIANTX",
+          "short_name": "GX",
+          "region": "EMEA",
+          "aliases": ["GIANTX", "GX"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/14419/giantx",
+          "vlr_team_id": 14419,
+          "current_roster": ["gx-player-1", "gx-player-2", "gx-player-3", "gx-player-4", "gx-player-5"]
+        }
+      ]
+    },
+    "PACIFIC": {
+      "label": "Pacific",
+      "teams": [
+        {
+          "id": "nongshim-redforce",
+          "name": "Nongshim RedForce",
+          "short_name": "NS",
+          "region": "PACIFIC",
+          "aliases": ["Nongshim RedForce", "NS"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/11060/nongshim-redforce",
+          "vlr_team_id": 11060,
+          "current_roster": ["ns-player-1", "ns-player-2", "ns-player-3", "ns-player-4", "ns-player-5"]
+        },
+        {
+          "id": "t1",
+          "name": "T1",
+          "short_name": "T1",
+          "region": "PACIFIC",
+          "aliases": ["T1"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/14/t1",
+          "vlr_team_id": 14,
+          "current_roster": ["t1-player-1", "t1-player-2", "t1-player-3", "t1-player-4", "t1-player-5"]
+        },
+        {
+          "id": "full-sense",
+          "name": "FULL SENSE",
+          "short_name": "FS",
+          "region": "PACIFIC",
+          "aliases": ["FULL SENSE", "FS"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/4050/full-sense",
+          "vlr_team_id": 4050,
+          "current_roster": ["fs-player-1", "fs-player-2", "fs-player-3", "fs-player-4", "fs-player-5"]
+        },
+        {
+          "id": "paper-rex",
+          "name": "Paper Rex",
+          "short_name": "PRX",
+          "region": "PACIFIC",
+          "aliases": ["Paper Rex", "PRX"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/624/paper-rex",
+          "vlr_team_id": 624,
+          "current_roster": ["prx-player-1", "prx-player-2", "prx-player-3", "prx-player-4", "prx-player-5"]
+        },
+        {
+          "id": "global-esports",
+          "name": "Global Esports",
+          "short_name": "GE",
+          "region": "PACIFIC",
+          "aliases": ["Global Esports", "GE"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/918/global-esports",
+          "vlr_team_id": 918,
+          "current_roster": ["ge-player-1", "ge-player-2", "ge-player-3", "ge-player-4", "ge-player-5"]
+        },
+        {
+          "id": "rex-regum-qeon",
+          "name": "Rex Regum Qeon",
+          "short_name": "RRQ",
+          "region": "PACIFIC",
+          "aliases": ["Rex Regum Qeon", "RRQ"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/878/rex-regum-qeon",
+          "vlr_team_id": 878,
+          "current_roster": ["rrq-player-1", "rrq-player-2", "rrq-player-3", "rrq-player-4", "rrq-player-5"]
+        },
+        {
+          "id": "kiwoom-drx",
+          "name": "Kiwoom DRX",
+          "short_name": "DRX",
+          "region": "PACIFIC",
+          "aliases": ["Kiwoom DRX", "DRX"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/8185/kiwoom-drx",
+          "vlr_team_id": 8185,
+          "current_roster": ["drx-player-1", "drx-player-2", "drx-player-3", "drx-player-4", "drx-player-5"]
+        },
+        {
+          "id": "detonation-focusme",
+          "name": "DetonatioN FocusMe",
+          "short_name": "DFM",
+          "region": "PACIFIC",
+          "aliases": ["DetonatioN FocusMe", "DFM"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/278/detonation-focusme",
+          "vlr_team_id": 278,
+          "current_roster": ["dfm-player-1", "dfm-player-2", "dfm-player-3", "dfm-player-4", "dfm-player-5"]
+        },
+        {
+          "id": "team-secret",
+          "name": "Team Secret",
+          "short_name": "TS",
+          "region": "PACIFIC",
+          "aliases": ["Team Secret", "TS"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/6199/team-secret",
+          "vlr_team_id": 6199,
+          "current_roster": ["ts-player-1", "ts-player-2", "ts-player-3", "ts-player-4", "ts-player-5"]
+        },
+        {
+          "id": "zeta-division",
+          "name": "ZETA DIVISION",
+          "short_name": "ZETA",
+          "region": "PACIFIC",
+          "aliases": ["ZETA DIVISION", "ZETA"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/5448/zeta-division",
+          "vlr_team_id": 5448,
+          "current_roster": ["zeta-player-1", "zeta-player-2", "zeta-player-3", "zeta-player-4", "zeta-player-5"]
+        },
+        {
+          "id": "gen-g",
+          "name": "Gen.G",
+          "short_name": "GEN",
+          "region": "PACIFIC",
+          "aliases": ["Gen.G", "GenG", "GEN"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/17/gen-g",
+          "vlr_team_id": 17,
+          "current_roster": ["geng-player-1", "geng-player-2", "geng-player-3", "geng-player-4", "geng-player-5"]
+        }
+      ]
+    },
+    "CHINA": {
+      "label": "China",
+      "teams": [
+        {
+          "id": "xi-lai-gaming",
+          "name": "Xi Lai Gaming",
+          "short_name": "XLG",
+          "region": "CHINA",
+          "aliases": ["Xi Lai Gaming", "XLG"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/13581/xi-lai-gaming",
+          "vlr_team_id": 13581,
+          "current_roster": ["wsleo", "lysoar", "noman", "rarga", "happywei"]
+        },
+        {
+          "id": "all-gamers",
+          "name": "All Gamers",
+          "short_name": "AG",
+          "region": "CHINA",
+          "aliases": ["All Gamers", "AG"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/1119/all-gamers",
+          "vlr_team_id": 1119,
+          "current_roster": ["ag-player-1", "ag-player-2", "ag-player-3", "ag-player-4", "ag-player-5"]
+        },
+        {
+          "id": "dragon-ranger-gaming",
+          "name": "Dragon Ranger Gaming",
+          "short_name": "DRG",
+          "region": "CHINA",
+          "aliases": ["Dragon Ranger Gaming", "DRG"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/11981/dragon-ranger-gaming",
+          "vlr_team_id": 11981,
+          "current_roster": ["drg-player-1", "drg-player-2", "drg-player-3", "drg-player-4", "drg-player-5"]
+        },
+        {
+          "id": "bilibili-gaming",
+          "name": "Bilibili Gaming",
+          "short_name": "BLG",
+          "region": "CHINA",
+          "aliases": ["Bilibili Gaming", "BLG"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/12010/bilibili-gaming",
+          "vlr_team_id": 12010,
+          "current_roster": ["blg-player-1", "blg-player-2", "blg-player-3", "blg-player-4", "blg-player-5"]
+        },
+        {
+          "id": "tyloo",
+          "name": "TYLOO",
+          "short_name": "TYL",
+          "region": "CHINA",
+          "aliases": ["TYLOO", "Tyloo"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/731/tyloo",
+          "vlr_team_id": 731,
+          "current_roster": ["tyloo-player-1", "tyloo-player-2", "tyloo-player-3", "tyloo-player-4", "tyloo-player-5"]
+        },
+        {
+          "id": "jdg-esports",
+          "name": "JDG Esports",
+          "short_name": "JDG",
+          "region": "CHINA",
+          "aliases": ["JDG Esports", "JDG"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/13576/jdg-esports",
+          "vlr_team_id": 13576,
+          "current_roster": ["jdg-player-1", "jdg-player-2", "jdg-player-3", "jdg-player-4", "jdg-player-5"]
+        },
+        {
+          "id": "edward-gaming",
+          "name": "EDward Gaming",
+          "short_name": "EDG",
+          "region": "CHINA",
+          "aliases": ["EDward Gaming", "EDG"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/1120/edward-gaming",
+          "vlr_team_id": 1120,
+          "current_roster": ["edg-player-1", "edg-player-2", "edg-player-3", "edg-player-4", "edg-player-5"]
+        },
+        {
+          "id": "funplus-phoenix",
+          "name": "FunPlus Phoenix",
+          "short_name": "FPX",
+          "region": "CHINA",
+          "aliases": ["FunPlus Phoenix", "FPX"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/11328/funplus-phoenix",
+          "vlr_team_id": 11328,
+          "current_roster": ["fpx-player-1", "fpx-player-2", "fpx-player-3", "fpx-player-4", "fpx-player-5"]
+        },
+        {
+          "id": "titan-esports-club",
+          "name": "Titan Esports Club",
+          "short_name": "TEC",
+          "region": "CHINA",
+          "aliases": ["Titan Esports Club", "TEC"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/14137/titan-esports-club",
+          "vlr_team_id": 14137,
+          "current_roster": ["tec-player-1", "tec-player-2", "tec-player-3", "tec-player-4", "tec-player-5"]
+        },
+        {
+          "id": "trace-esports",
+          "name": "Trace Esports",
+          "short_name": "TE",
+          "region": "CHINA",
+          "aliases": ["Trace Esports", "TE"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/12685/trace-esports",
+          "vlr_team_id": 12685,
+          "current_roster": ["trace-player-1", "trace-player-2", "trace-player-3", "trace-player-4", "trace-player-5"]
+        },
+        {
+          "id": "nova-esports",
+          "name": "Nova Esports",
+          "short_name": "NOVA",
+          "region": "CHINA",
+          "aliases": ["Nova Esports", "NOVA"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/12064/nova-esports",
+          "vlr_team_id": 12064,
+          "current_roster": ["nova-player-1", "nova-player-2", "nova-player-3", "nova-player-4", "nova-player-5"]
+        }
+      ]
+    }
+  }
+}

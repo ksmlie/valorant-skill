@@ -1,0 +1,100 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-06-15",
+  "source_strategy": { "primary": "VLR.gg" },
+  "scope": "Valorant Masters events 2026",
+  "events": [
+    {
+      "id": "valorant-masters-santiago-2026",
+      "name": "Valorant Masters Santiago 2026",
+      "short_name": "Masters Santiago 2026",
+      "aliases": ["Valorant Masters Santiago 2026", "Masters Santiago 2026", "Masters Santiago"],
+      "series": "Masters",
+      "season": 2026,
+      "region": "GLOBAL",
+      "status": "completed",
+      "location": "Espacio Riesco, Santiago",
+      "start_date": "2026-03-01",
+      "end_date": "2026-03-16",
+      "prize": "$1,000,000",
+      "vlr_url": "https://www.vlr.gg/event/2760/valorant-masters-santiago-2026",
+      "vlr_event_id": 2760,
+      "stages": [
+        {
+          "name": "Swiss Stage",
+          "start_date": "2026-03-01",
+          "end_date": "2026-03-05",
+          "matches_url": "https://www.vlr.gg/event/2760/valorant-masters-santiago-2026/swiss-stage",
+          "teams": ["gentle-mates", "team-liquid", "edward-gaming", "xi-lai-gaming", "furia", "all-gamers", "bbl-esports", "nongshim-redforce"]
+        },
+        {
+          "name": "Playoffs",
+          "start_date": "2026-03-07",
+          "end_date": "2026-03-16",
+          "matches_url": "https://www.vlr.gg/event/2760/valorant-masters-santiago-2026/playoffs",
+          "teams": ["nongshim-redforce", "paper-rex", "nrg", "g2-esports", "all-gamers", "bbl-esports", "gentle-mates", "furia"]
+        }
+      ],
+      "all_teams": [
+        { "position": 1, "team_id": "nongshim-redforce", "team_name": "Nongshim RedForce", "region": "PACIFIC", "final_placement": "1st", "seed_or_stage": "Pacific Kickoff (#1)" },
+        { "position": 2, "team_id": "paper-rex", "team_name": "Paper Rex", "region": "PACIFIC", "final_placement": "2nd", "seed_or_stage": "Swiss Stage (2-0)" },
+        { "position": 3, "team_id": "nrg", "team_name": "NRG", "region": "AMERICAS", "final_placement": "3rd", "seed_or_stage": "Swiss Stage (2-0)" },
+        { "position": 4, "team_id": "g2-esports", "team_name": "G2 Esports", "region": "AMERICAS", "final_placement": "4th", "seed_or_stage": "Swiss Stage (2-1)" },
+        { "position": 5, "team_id": "all-gamers", "team_name": "All Gamers", "region": "CHINA", "final_placement": "5th-6th", "seed_or_stage": "China Kickoff (#1)" },
+        { "position": 6, "team_id": "bbl-esports", "team_name": "BBL Esports", "region": "EMEA", "final_placement": "5th-6th", "seed_or_stage": "EMEA Kickoff (#1)" },
+        { "position": 7, "team_id": "gentle-mates", "team_name": "Gentle Mates", "region": "EMEA", "final_placement": "7th-8th", "seed_or_stage": "Swiss Stage (2-0)" },
+        { "position": 8, "team_id": "furia", "team_name": "FURIA", "region": "AMERICAS", "final_placement": "7th-8th", "seed_or_stage": "Americas Kickoff (#1)" },
+        { "position": 9, "team_id": "t1", "team_name": "T1", "region": "PACIFIC", "final_placement": "9th-10th", "seed_or_stage": "Pacific Kickoff (#1)" },
+        { "position": 10, "team_id": "team-liquid", "team_name": "Team Liquid", "region": "EMEA", "final_placement": "9th-10th", "seed_or_stage": "Swiss Stage (2-0)" },
+        { "position": 11, "team_id": "edward-gaming", "team_name": "EDward Gaming", "region": "CHINA", "final_placement": "11th-12th", "seed_or_stage": "China Kickoff (#1)" },
+        { "position": 12, "team_id": "xi-lai-gaming", "team_name": "Xi Lai Gaming", "region": "CHINA", "final_placement": "11th-12th", "seed_or_stage": "Swiss Stage (2-1)" }
+      ]
+    },
+    {
+      "id": "valorant-masters-london-2026",
+      "name": "Valorant Masters London 2026",
+      "short_name": "Masters London 2026",
+      "aliases": ["Valorant Masters London 2026", "Masters London 2026", "Masters London"],
+      "series": "Masters",
+      "season": 2026,
+      "region": "GLOBAL",
+      "status": "in_progress",
+      "location": "Copper Box Arena, London",
+      "start_date": "2026-06-06",
+      "end_date": "2026-06-21",
+      "prize": "$1,000,000",
+      "vlr_url": "https://www.vlr.gg/event/2765/valorant-masters-london-2026",
+      "vlr_event_id": 2765,
+      "stages": [
+        {
+          "name": "Swiss Stage",
+          "start_date": "2026-06-06",
+          "end_date": "2026-06-11",
+          "matches_url": "https://www.vlr.gg/event/2765/valorant-masters-london-2026/swiss-stage",
+          "teams": ["team-vitality", "leviatan", "fut-esports", "xi-lai-gaming", "nrg", "global-esports", "dragon-ranger-gaming", "full-sense"]
+        },
+        {
+          "name": "Playoffs",
+          "start_date": "2026-06-12",
+          "end_date": "2026-06-22",
+          "matches_url": "https://www.vlr.gg/event/2765/valorant-masters-london-2026/playoffs",
+          "teams": ["g2-esports", "edward-gaming", "team-heretics", "paper-rex", "team-vitality", "leviatan", "fut-esports", "xi-lai-gaming"]
+        }
+      ],
+      "all_teams": [
+        { "position": 1, "team_id": "team-vitality", "team_name": "Team Vitality", "region": "EMEA", "final_placement": "", "seed_or_stage": "Swiss Stage (2-0)" },
+        { "position": 2, "team_id": "leviatan", "team_name": "LEVIATÁN", "region": "AMERICAS", "final_placement": "", "seed_or_stage": "Swiss Stage (2-0)" },
+        { "position": 3, "team_id": "fut-esports", "team_name": "FUT Esports", "region": "EMEA", "final_placement": "", "seed_or_stage": "Swiss Stage (2-1)" },
+        { "position": 4, "team_id": "xi-lai-gaming", "team_name": "Xi Lai Gaming", "region": "CHINA", "final_placement": "", "seed_or_stage": "Swiss Stage (2-1)" },
+        { "position": 5, "team_id": "nrg", "team_name": "NRG", "region": "AMERICAS", "final_placement": "9th-10th", "seed_or_stage": "Swiss Stage (1-2)" },
+        { "position": 6, "team_id": "global-esports", "team_name": "Global Esports", "region": "PACIFIC", "final_placement": "9th-10th", "seed_or_stage": "Swiss Stage (1-2)" },
+        { "position": 7, "team_id": "dragon-ranger-gaming", "team_name": "Dragon Ranger Gaming", "region": "CHINA", "final_placement": "11th-12th", "seed_or_stage": "Swiss Stage (0-2)" },
+        { "position": 8, "team_id": "full-sense", "team_name": "FULL SENSE", "region": "PACIFIC", "final_placement": "11th-12th", "seed_or_stage": "Swiss Stage (0-2)" },
+        { "position": 9, "team_id": "g2-esports", "team_name": "G2 Esports", "region": "AMERICAS", "final_placement": "", "seed_or_stage": "Playoffs" },
+        { "position": 10, "team_id": "edward-gaming", "team_name": "EDward Gaming", "region": "CHINA", "final_placement": "", "seed_or_stage": "Playoffs" },
+        { "position": 11, "team_id": "team-heretics", "team_name": "Team Heretics", "region": "EMEA", "final_placement": "", "seed_or_stage": "Playoffs" },
+        { "position": 12, "team_id": "paper-rex", "team_name": "Paper Rex", "region": "PACIFIC", "final_placement": "", "seed_or_stage": "Playoffs" }
+      ]
+    }
+  ]
+}
