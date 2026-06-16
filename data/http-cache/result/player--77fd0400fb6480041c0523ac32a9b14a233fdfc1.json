@@ -1,0 +1,191 @@
+{
+  "namespace": "player",
+  "key": "{\"command\":\"detail\",\"query\":\"3520\",\"arg3\":null,\"resolvedUrl\":\"https://www.vlr.gg/player/3520\",\"timespan\":\"90d\",\"detailTab\":\"all\"}",
+  "cached_at": "2026-06-16T14:02:24.656Z",
+  "meta": {
+    "query": "3520",
+    "command": "detail",
+    "timespan": "90d",
+    "detail_tab": "all",
+    "stale": false
+  },
+  "value": {
+    "query_type": "player_detail",
+    "matched_script": "scripts/valorant-player.js",
+    "normalized_query": "3520",
+    "filters": {
+      "command": "detail",
+      "player_keyword": "3520",
+      "timespan": "90d"
+    },
+    "result": {
+      "found": true,
+      "matched_count": null,
+      "status": "resolved",
+      "stale": false,
+      "degraded": false,
+      "data": {
+        "info": {
+          "player_profile": {
+            "id": "zmjjkk",
+            "name": "ZmjjKK",
+            "short_name": "ZmjjKK",
+            "aliases": [
+              "ZmjjKK",
+              "Zheng Yongkang (郑永康)"
+            ],
+            "nationality": "CHINA",
+            "age": null,
+            "team_id": "edward-gaming",
+            "team_name": "EDward Gaming",
+            "region": "CHINA",
+            "vlr_url": "https://www.vlr.gg/player/3520/zmjjkk",
+            "vlr_player_id": 3520,
+            "status": null,
+            "real_name": "Zheng Yongkang (郑永康)",
+            "team_url": "https://www.vlr.gg/team/1120/edward-gaming",
+            "source_page_title": "ZmjjKK: Valorant Player Profile"
+          },
+          "team": {
+            "team_id": "edward-gaming",
+            "team_name": "EDward Gaming",
+            "team_url": "https://www.vlr.gg/team/1120/edward-gaming",
+            "region": "CHINA"
+          },
+          "role": null,
+          "recent_results": [],
+          "recent_form": null,
+          "notes": []
+        },
+        "stats": {
+          "player_id": "zmjjkk",
+          "player_name": "ZmjjKK",
+          "vlr_player_id": 3520,
+          "timespan": "90d",
+          "by_agent": [
+            {
+              "agent": "",
+              "use": "(15) 45%",
+              "rnd": 307,
+              "rating": 1.08,
+              "acs": 236.7,
+              "k_d": 1.22,
+              "adr": 156.2,
+              "kast": "73%",
+              "kpr": 0.83,
+              "apr": 0.15,
+              "fkpr": 0.22,
+              "fdpr": 0.17,
+              "kills": 256,
+              "deaths": 210,
+              "assists": 46,
+              "fk": 69,
+              "fd": 52
+            },
+            {
+              "agent": "",
+              "use": "(8) 24%",
+              "rnd": 168,
+              "rating": 1.19,
+              "acs": 249.1,
+              "k_d": 1.26,
+              "adr": 162.2,
+              "kast": "74%",
+              "kpr": 0.9,
+              "apr": 0.18,
+              "fkpr": 0.17,
+              "fdpr": 0.14,
+              "kills": 151,
+              "deaths": 120,
+              "assists": 30,
+              "fk": 29,
+              "fd": 24
+            },
+            {
+              "agent": "",
+              "use": "(5) 15%",
+              "rnd": 100,
+              "rating": 1.41,
+              "acs": 306,
+              "k_d": 1.44,
+              "adr": 202.3,
+              "kast": "78%",
+              "kpr": 1.04,
+              "apr": 0.28,
+              "fkpr": 0.17,
+              "fdpr": 0.12,
+              "kills": 104,
+              "deaths": 72,
+              "assists": 28,
+              "fk": 17,
+              "fd": 12
+            },
+            {
+              "agent": "",
+              "use": "(3) 9%",
+              "rnd": 59,
+              "rating": 1.08,
+              "acs": 275.3,
+              "k_d": 1.3,
+              "adr": 158.3,
+              "kast": "69%",
+              "kpr": 0.97,
+              "apr": 0.24,
+              "fkpr": 0.32,
+              "fdpr": 0.17,
+              "kills": 57,
+              "deaths": 44,
+              "assists": 14,
+              "fk": 19,
+              "fd": 10
+            },
+            {
+              "agent": "",
+              "use": "(2) 6%",
+              "rnd": 43,
+              "rating": 1.06,
+              "acs": 198.5,
+              "k_d": 1.28,
+              "adr": 129.4,
+              "kast": "65%",
+              "kpr": 0.74,
+              "apr": 0.05,
+              "fkpr": 0.19,
+              "fdpr": 0.19,
+              "kills": 32,
+              "deaths": 25,
+              "assists": 2,
+              "fk": 8,
+              "fd": 8
+            }
+          ]
+        }
+      }
+    },
+    "source": {
+      "type": "vlr_player_page",
+      "file": "data/players.json",
+      "version": "1.0.0",
+      "updated_at": "2026-06-15",
+      "url": "https://www.vlr.gg/player/3520/zmjjkk",
+      "stats_url": "https://www.vlr.gg/player/3520?timespan=90d",
+      "resolve_mode": "direct_id",
+      "html_cache": {
+        "info": {
+          "hit": true,
+          "stale": false,
+          "source": "html_cache_fresh"
+        },
+        "stats": {
+          "hit": true,
+          "stale": false,
+          "source": "html_cache_fresh"
+        }
+      }
+    },
+    "notes": [
+      "player_resolved_by_direct_vlr_player_id",
+      "only_vlr_visible_page_data_used"
+    ]
+  }
+}

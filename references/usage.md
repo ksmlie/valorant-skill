@@ -7,8 +7,8 @@
 ### 1. 战队名 → 战队资料 → 当前阵容 → 选手详情
 
 ```js
-const { /* 战队查询函数，按脚本实际导出使用 */ } = require('./scripts/valorant-team.js');
-const { /* 选手查询函数，按脚本实际导出使用 */ } = require('./scripts/valorant-player.js');
+const { /* 战队查询函数，按脚本实际导出使用 */ } = require('./scripts/valorant-team.js'); // 引入战队查询脚本，先获取战队和阵容信息
+const { /* 选手查询函数，按脚本实际导出使用 */ } = require('./scripts/valorant-player.js'); // 引入选手查询脚本，用于继续查个人资料
 
 (async () => {
   // 1. 先查战队
@@ -34,24 +34,25 @@ const { /* 选手查询函数，按脚本实际导出使用 */ } = require('./sc
 - `SEN 的一号位是谁？`
 - `某战队选手资料`
 
-### 2. 今天比赛 → 找 live / finished → 查比赛详情
+### 2. 日期赛程 → 按目标日期取比赛 → 继续查比赛详情
 
 ```js
 const { /* 赛程查询函数，按脚本实际导出使用 */ } = require('./scripts/valorant-schedule.js');
 const { /* 比赛查询函数，按脚本实际导出使用 */ } = require('./scripts/valorant-match.js');
 
 (async () => {
-  // 1. 查今天赛程
-  const today = await fetchScheduleByTime('today');
-  const matches = today?.matches || [];
+  // 1. 查指定日期赛程，可用 today / tomorrow / 2026-06-14 / 6-14
+  const schedule = await fetchScheduleByTime('6-14');
+  const matches = schedule?.matches || [];
 
-  // 2. 过滤 live 或 finished
-  const targetMatches = matches.filter(m => ['live', 'finished'].includes(m.status));
+  // 2. 只保留当前关心状态的比赛
+  const targetMatches = matches.filter(m => ['live', 'finished', 'upcoming'].includes(m.status));
 
   // 3. 逐场查详情
   for (const m of targetMatches) {
     const detail = await fetchMatchDetail('info', m.match_id);
-    console.log(`${m.team_a?.name} vs ${m.team_b?.name} - ${detail?.score}`);
+    console.log(`${m.date} ${m.time} ${m.team_a?.name} vs ${m.team_b?.name}`);
+    console.log(detail?.score);
   }
 })();
 ```
@@ -59,8 +60,17 @@ const { /* 比赛查询函数，按脚本实际导出使用 */ } = require('./sc
 适合问题：
 
 - `今天有哪些比赛？`
-- `现在有哪些正在打的比赛？`
+- `6-14 有哪些比赛？`
+- `明天赛程是什么？`
 - `刚结束那场比分是多少？`
+
+### 日期赛程解析约定
+
+- `time` 查询应以**目标日期**作为唯一筛选条件。
+- 页面上的 `Today`、`Yesterday`、`Tomorrow` 只是展示标签，不应影响比赛归属。
+- 如果某一日期下同一时间点有多场并行比赛，应全部返回，不做主观去重。
+- 如果脚本当前只覆盖部分赛事，则返回的是**当前已覆盖赛事范围内**该日期的比赛，不等同于 VLR 全站所有比赛。
+- 如果要实现 VLR 全站日期赛程，需要直接抓取 `https://www.vlr.gg/matches` 或结果页，而不是只遍历本地 `events.json`。
 
 ### 3. 赛事赛程 → 指定比赛 → 地图数据 / 单图选手数据
 

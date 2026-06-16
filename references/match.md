@@ -20,16 +20,16 @@
 ## 命令
 
 ```bash
-node scripts/valorant-match.js info <matchId>             # 比赛基本信息
-node scripts/valorant-match.js maps <matchId>             # 地图与比分
-node scripts/valorant-match.js h2h <matchId>              # 交手与近期战绩
-node scripts/valorant-match.js detail <matchId>           # 比赛详细信息（逐图 10 名选手数据）
-node scripts/valorant-match.js players summary <matchId>  # 所有地图汇总后的选手数据
-node scripts/valorant-match.js map1 players <matchId>     # 第 1 张地图 10 名选手数据
-node scripts/valorant-match.js map2 players <matchId>     # 第 2 张地图 10 名选手数据
-node scripts/valorant-match.js map3 players <matchId>     # 第 3 张地图 10 名选手数据
-node scripts/valorant-match.js map4 players <matchId>     # 第 4 张地图 10 名选手数据
-node scripts/valorant-match.js map5 players <matchId>     # 第 5 张地图 10 名选手数据
+node scripts/valorant-match.js info <matchId>             # 比赛基本信息；查看单场比赛的基础信息、对阵和比分
+node scripts/valorant-match.js maps <matchId>             # 地图与比分；查看每张地图的比分与总比分
+node scripts/valorant-match.js h2h <matchId>              # 交手与近期战绩；查看双方交手记录和近期表现
+node scripts/valorant-match.js detail <matchId>           # 比赛详细信息（逐图 10 名选手数据）；查看每图双方完整选手数据
+node scripts/valorant-match.js players summary <matchId>  # 所有地图汇总后的选手数据；查看整场比赛的选手总览
+node scripts/valorant-match.js map1 players <matchId>     # 第 1 张地图 10 名选手数据；查看第一张图双方选手表现
+node scripts/valorant-match.js map2 players <matchId>     # 第 2 张地图 10 名选手数据；查看第二张图双方选手表现
+node scripts/valorant-match.js map3 players <matchId>     # 第 3 张地图 10 名选手数据；查看第三张图双方选手表现
+node scripts/valorant-match.js map4 players <matchId>     # 第 4 张地图 10 名选手数据；查看第四张图双方选手表现
+node scripts/valorant-match.js map5 players <matchId>     # 第 5 张地图 10 名选手数据；查看第五张图双方选手表现
 ```
 
 ## 建议输出字段

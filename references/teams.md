@@ -9,8 +9,8 @@
 ### 列出全部 48 支战队
 
 ```bash
-node scripts/valorant-teams.js
-node scripts/valorant-teams.js list
+node scripts/valorant-teams.js         # 列出全部战队；默认输出 48 支
+node scripts/valorant-teams.js list     # 列出全部战队；与不传参数效果一致
 ```
 
 说明：
@@ -21,10 +21,10 @@ node scripts/valorant-teams.js list
 ### 查询指定赛区战队
 
 ```bash
-node scripts/valorant-teams.js region AMERICAS
-node scripts/valorant-teams.js region EMEA
-node scripts/valorant-teams.js region PACIFIC
-node scripts/valorant-teams.js region CHINA
+node scripts/valorant-teams.js region AMERICAS   # 查询美洲赛区战队
+node scripts/valorant-teams.js region EMEA       # 查询 EMEA 赛区战队
+node scripts/valorant-teams.js region PACIFIC    # 查询太平洋赛区战队
+node scripts/valorant-teams.js region CHINA      # 查询中国赛区战队
 ```
 
 说明：
@@ -35,9 +35,9 @@ node scripts/valorant-teams.js region CHINA
 ### 按名称查询 `team_id`
 
 ```bash
-node scripts/valorant-teams.js find Sentinels
-node scripts/valorant-teams.js find EDG
-node scripts/valorant-teams.js find "Team Liquid"
+node scripts/valorant-teams.js find Sentinels    # 按标准名称查询 team_id
+node scripts/valorant-teams.js find EDG          # 按简称查询 team_id
+node scripts/valorant-teams.js find "Team Liquid" # 按完整战队名查询 team_id
 ```
 
 说明：
@@ -49,9 +49,9 @@ node scripts/valorant-teams.js find "Team Liquid"
 ### 关键词搜索战队
 
 ```bash
-node scripts/valorant-teams.js search liquid
-node scripts/valorant-teams.js search geng
-node scripts/valorant-teams.js search heretics
+node scripts/valorant-teams.js search liquid    # 模糊搜索战队名或别名
+node scripts/valorant-teams.js search geng      # 模糊搜索战队名或别名
+node scripts/valorant-teams.js search heretics  # 模糊搜索战队名或别名
 ```
 
 说明：
@@ -62,7 +62,7 @@ node scripts/valorant-teams.js search heretics
 ### 查看战队数据基本信息
 
 ```bash
-node scripts/valorant-teams.js info
+node scripts/valorant-teams.js info  # 查看战队数据摘要；包含版本和更新时间
 ```
 
 说明：

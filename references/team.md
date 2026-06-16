@@ -5,12 +5,10 @@
 ## 命令
 
 ```bash
-node scripts/valorant-team.js <teamKeyword>                    # 通过关键词查询战队
-node scripts/valorant-team.js <vlrTeamId>                      # 通过 VLR 战队 ID 查询
-node scripts/valorant-team.js <vlrTeamUrl>                     # 通过 VLR 战队链接查询
-node scripts/valorant-team.js FNATIC                           # 示例：关键词
-node scripts/valorant-team.js 2593                             # 示例：VLR team id
-node scripts/valorant-team.js https://www.vlr.gg/team/2593/fnatic  # 示例：VLR URL
+node scripts/valorant-team.js <teamKeyword>                     # 通过关键词查询战队；用于按名称或别名搜索
+node scripts/valorant-team.js <vlrTeamId>                       # 通过 VLR 战队 ID 查询；直接定位到战队页面
+node scripts/valorant-team.js <vlrTeamUrl>                      # 通过 VLR 战队链接查询；最精确的输入方式
+node scripts/valorant-team.js https://www.vlr.gg/team/2593/fnatic # 示例：VLR URL；直接打开战队链接
 ```
 
 支持三种输入：

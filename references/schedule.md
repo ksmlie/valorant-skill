@@ -9,8 +9,8 @@
 ### 列出赛事全部赛程
 
 ```bash
-node scripts/valorant-schedule.js event masters-toronto-2026
-node scripts/valorant-schedule.js event vct-cn-stage2-2026
+node scripts/valorant-schedule.js event masters-toronto-2026  # 列出指定赛事的全部赛程；按时间排序输出
+node scripts/valorant-schedule.js event vct-cn-stage2-2026     # 列出 VCT CN Stage 2 2026 的全部赛程
 ```
 
 说明：返回指定赛事下的全部比赛，按开赛时间排序。
@@ -18,10 +18,10 @@ node scripts/valorant-schedule.js event vct-cn-stage2-2026
 ### 按时间筛选比赛
 
 ```bash
-node scripts/valorant-schedule.js time today
-node scripts/valorant-schedule.js time tomorrow
-node scripts/valorant-schedule.js time 2026-06-16
-node scripts/valorant-schedule.js time 06-16
+node scripts/valorant-schedule.js time today        # 查询今天的比赛；使用本地日期作为基准
+node scripts/valorant-schedule.js time tomorrow     # 查询明天的比赛；返回对应日期的赛程
+node scripts/valorant-schedule.js time 2026-06-16   # 查询指定日期的比赛；使用完整日期格式
+node scripts/valorant-schedule.js time 06-16        # 查询指定月日的比赛；自动补全年份
 ```
 
 说明：
@@ -31,9 +31,9 @@ node scripts/valorant-schedule.js time 06-16
 ### 按阶段筛选比赛
 
 ```bash
-node scripts/valorant-schedule.js stage swiss-stage
-node scripts/valorant-schedule.js stage playoff
-node scripts/valorant-schedule.js stage group-stage
+node scripts/valorant-schedule.js stage swiss-stage    # 查询 Swiss Stage 阶段比赛；阶段名建议使用 slug
+node scripts/valorant-schedule.js stage playoff        # 查询 Playoff 阶段比赛；支持阶段 slug 搜索
+node scripts/valorant-schedule.js stage group-stage    # 查询 Group Stage 阶段比赛；按阶段过滤结果
 ```
 
 说明：返回指定阶段下的比赛列表，阶段值建议使用标准 slug。
@@ -41,7 +41,7 @@ node scripts/valorant-schedule.js stage group-stage
 ### 比赛状态统计
 
 ```bash
-node scripts/valorant-schedule.js stats
+node scripts/valorant-schedule.js stats  # 统计当前赛程状态分布；输出各状态数量
 ```
 
 说明：统计当前赛程中的比赛状态，例如：

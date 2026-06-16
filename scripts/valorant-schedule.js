@@ -128,7 +128,10 @@ function findTeamById(teamId, teams) {
 }
 
 function parseDateHeading(text) {
-  const clean = compact(text).replace(/,$/, '');
+  const clean = compact(text)
+    .replace(/\b(today|tomorrow|yesterday)\b/gi, '')
+    .replace(/,$/, '')
+    .trim();
   const match = clean.match(/^[A-Za-z]{3},\s+([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})$/);
   if (!match) return null;
 
@@ -357,6 +360,7 @@ async function fetchAllMatches(events, teams) {
 function normalizeDateKeyword(text) {
   const q = String(text || '').trim().toLowerCase();
   if (!q) return 'today';
+  if (q.includes('yesterday') || q.includes('昨天')) return 'yesterday';
   if (q.includes('tomorrow') || q.includes('明天')) return 'tomorrow';
   if (q.includes('today') || q.includes('今天')) return 'today';
   return q;
@@ -365,6 +369,7 @@ function normalizeDateKeyword(text) {
 function resolveRelativeDate(keyword) {
   const now = new Date();
   const base = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  if (keyword === 'yesterday') base.setDate(base.getDate() - 1);
   if (keyword === 'tomorrow') base.setDate(base.getDate() + 1);
   const year = base.getFullYear();
   const month = String(base.getMonth() + 1).padStart(2, '0');
@@ -374,7 +379,7 @@ function resolveRelativeDate(keyword) {
 
 function normalizeRequestedDate(input) {
   const normalized = normalizeDateKeyword(input);
-  if (normalized === 'today' || normalized === 'tomorrow') return resolveRelativeDate(normalized);
+  if (normalized === 'today' || normalized === 'tomorrow' || normalized === 'yesterday') return resolveRelativeDate(normalized);
   return parseDateValue(normalized);
 }
 

@@ -1,0 +1,86 @@
+{
+  "namespace": "player",
+  "key": "{\"command\":\"info\",\"query\":\"3520\",\"arg3\":null,\"resolvedUrl\":\"https://www.vlr.gg/player/3520\",\"timespan\":\"90d\",\"detailTab\":null}",
+  "cached_at": "2026-06-16T14:02:10.914Z",
+  "meta": {
+    "query": "3520",
+    "command": "info",
+    "timespan": "90d",
+    "detail_tab": null,
+    "stale": false
+  },
+  "value": {
+    "query_type": "player_info",
+    "matched_script": "scripts/valorant-player.js",
+    "normalized_query": "3520",
+    "filters": {
+      "command": "info",
+      "player_keyword": "3520",
+      "timespan": null
+    },
+    "result": {
+      "found": true,
+      "matched_count": null,
+      "status": "resolved",
+      "stale": false,
+      "degraded": false,
+      "data": {
+        "player_profile": {
+          "id": "zmjjkk",
+          "name": "ZmjjKK",
+          "short_name": "ZmjjKK",
+          "aliases": [
+            "ZmjjKK",
+            "Zheng Yongkang (郑永康)"
+          ],
+          "nationality": "CHINA",
+          "age": null,
+          "team_id": "edward-gaming",
+          "team_name": "EDward Gaming",
+          "region": "CHINA",
+          "vlr_url": "https://www.vlr.gg/player/3520/zmjjkk",
+          "vlr_player_id": 3520,
+          "status": null,
+          "real_name": "Zheng Yongkang (郑永康)",
+          "team_url": "https://www.vlr.gg/team/1120/edward-gaming",
+          "source_page_title": "ZmjjKK: Valorant Player Profile"
+        },
+        "team": {
+          "team_id": "edward-gaming",
+          "team_name": "EDward Gaming",
+          "team_url": "https://www.vlr.gg/team/1120/edward-gaming",
+          "region": "CHINA"
+        },
+        "role": null,
+        "recent_results": [],
+        "recent_form": null,
+        "notes": []
+      }
+    },
+    "source": {
+      "type": "vlr_player_page",
+      "file": "data/players.json",
+      "version": "1.0.0",
+      "updated_at": "2026-06-15",
+      "url": "https://www.vlr.gg/player/3520/zmjjkk",
+      "stats_url": "https://www.vlr.gg/player/3520?timespan=90d",
+      "resolve_mode": "direct_id",
+      "html_cache": {
+        "info": {
+          "hit": false,
+          "stale": false,
+          "source": "network"
+        },
+        "stats": {
+          "hit": false,
+          "stale": false,
+          "source": "network"
+        }
+      }
+    },
+    "notes": [
+      "player_resolved_by_direct_vlr_player_id",
+      "only_vlr_visible_page_data_used"
+    ]
+  }
+}

@@ -25,6 +25,7 @@ const SCRIPT_NAME = 'scripts/valorant-match.js';
 const KNOWN_MAPS = ['Ascent', 'Bind', 'Breeze', 'Fracture', 'Haven', 'Icebox', 'Lotus', 'Pearl', 'Split', 'Sunset', 'Abyss', 'Corrode'];
 const PLAYER_CACHE_FILE = path.join(__dirname, '..', 'data', 'player-page-cache.json');
 const PLAYER_PAGE_CACHE_VERSION = 1;
+const MATCH_RESULT_CACHE_VERSION = 2;
 const MATCH_RESULT_CACHE_TTL_MS = 10 * 60 * 1000;
 const MATCH_RESULT_STALE_TTL_MS = 12 * 60 * 60 * 1000;
 const playerPageRequestCache = new Map();
@@ -1186,8 +1187,9 @@ function buildInfo(html, url, data) {
 }
 
 function buildMaps(info) {
-  const maps = (info.maps || []).map((map) => ({
-    [`图${map.map_number}`]: map.map_name,
+  const maps = (info.maps || []).map((map, index) => ({
+    map_name: map.map_name,
+    map_number: map.map_number || index + 1,
   }));
   return {
     match_id: info.match_id,
@@ -1311,7 +1313,7 @@ async function run(command, matchIdOrUrl, tabArg) {
   const url = buildMatchUrl(matchIdOrUrl);
   if (!url) return usage();
 
-  const cacheKey = JSON.stringify({ command, matchIdOrUrl, tabArg: tabArg || null, url });
+  const cacheKey = JSON.stringify({ version: MATCH_RESULT_CACHE_VERSION, command, matchIdOrUrl, tabArg: tabArg || null, url });
   const cached = getResultCache('match', cacheKey, MATCH_RESULT_CACHE_TTL_MS);
   if (cached?.value) return cached.value;
   const staleCached = getResultCacheAnyAge('match', cacheKey);
@@ -1335,6 +1337,9 @@ async function run(command, matchIdOrUrl, tabArg) {
     };
     const result = resultByCommand[command] || resultByCommand.info;
     const degraded = Boolean(htmlResponse.degraded);
+    const derivedMapNumbers = (info.maps || [])
+      .map((map) => Number(map.map_number) || null)
+      .filter((value) => value !== null);
 
     const output = {
       query_type: `match_${command}`,
@@ -1343,7 +1348,11 @@ async function run(command, matchIdOrUrl, tabArg) {
       filters: {
         command,
         match_id_or_url: matchIdOrUrl,
-        map_number: command === 'map_players' ? Number(tabArg) || null : null,
+        map_number: command === 'map_players'
+          ? Number(tabArg) || null
+          : ['maps', 'detail'].includes(command)
+          ? derivedMapNumbers
+          : null,
       },
       result: {
         found: Boolean(info.match_id),
@@ -1376,7 +1385,7 @@ async function run(command, matchIdOrUrl, tabArg) {
     setResultCache('match', cacheKey, output, {
       command,
       query: matchIdOrUrl,
-      map_number: command === 'map_players' ? Number(tabArg) || null : null,
+      map_number: command === 'map_players' ? Number(tabArg) || null : ['maps', 'detail'].includes(command) ? derivedMapNumbers : null,
       stale: degraded,
     });
 

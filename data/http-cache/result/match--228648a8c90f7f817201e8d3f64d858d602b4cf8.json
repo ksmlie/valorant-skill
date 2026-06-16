@@ -1,0 +1,81 @@
+{
+  "namespace": "match",
+  "key": "{\"version\":2,\"command\":\"maps\",\"matchIdOrUrl\":\"670468\",\"tabArg\":null,\"url\":\"https://www.vlr.gg/670468\"}",
+  "cached_at": "2026-06-16T13:57:37.369Z",
+  "meta": {
+    "command": "maps",
+    "query": "670468",
+    "map_number": null,
+    "stale": false
+  },
+  "value": {
+    "query_type": "match_maps",
+    "matched_script": "scripts/valorant-match.js",
+    "normalized_query": "670468",
+    "filters": {
+      "command": "maps",
+      "match_id_or_url": "670468",
+      "map_number": [
+        1,
+        2,
+        3
+      ]
+    },
+    "result": {
+      "found": true,
+      "status": "resolved",
+      "stale": false,
+      "degraded": false,
+      "data": {
+        "match_id": 670468,
+        "event_id": "valorant-masters-london-2026",
+        "maps": [
+          {
+            "map_name": "Lotus",
+            "map_number": 1
+          },
+          {
+            "map_name": "Breeze",
+            "map_number": 2
+          },
+          {
+            "map_name": "Split",
+            "map_number": 3
+          }
+        ],
+        "score": "1-2",
+        "winner_team_id": "edward-gaming",
+        "source": {
+          "type": "vlr_match_page",
+          "url": "https://www.vlr.gg/670468"
+        }
+      }
+    },
+    "source": {
+      "type": "vlr_match_page + static_json",
+      "url": "https://www.vlr.gg/670468",
+      "files": [
+        "data/events.json",
+        "data/teams.json",
+        "data/players.json"
+      ],
+      "event_version": "1.0.0",
+      "team_version": "1.0.0",
+      "player_version": "1.0.0",
+      "html_cache": {
+        "hit": true,
+        "stale": false,
+        "source": "html_cache_fresh"
+      }
+    },
+    "notes": [
+      "only_vlr_visible_page_data_used",
+      "event_id_maps_to_events_json_id",
+      "team_ids_map_to_teams_json_id",
+      "player_ids_map_to_players_json_id_when_detected",
+      "detail_command_returns_per_map_visible_match_rows_and_falls_back_to_known_roster_with_null_stats_when_needed",
+      "players_summary_command_returns_aggregated_player_stats_across_all_maps",
+      "map_players_command_returns_one_map_player_rows_by_map_number"
+    ]
+  }
+}

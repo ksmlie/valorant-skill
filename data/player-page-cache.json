@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "updated_at": "2026-06-16T13:54:20.599Z",
+  "entries": {
+    "https://www.vlr.gg/player/15559/chichoo": {
+      "nationality": null,
+      "status": "active",
+      "aliases": [
+        "CHICHOO",
+        "Wan Shunzhi"
+      ],
+      "cached_at": "2026-06-16T13:54:11.641Z"
+    },
+    "https://www.vlr.gg/player/51244/jieni7": {
+      "nationality": null,
+      "status": "active",
+      "aliases": [
+        "Jieni7",
+        "Zhang Juntai"
+      ],
+      "cached_at": "2026-06-16T13:54:14.131Z"
+    },
+    "https://www.vlr.gg/player/4742/smoggy": {
+      "nationality": null,
+      "status": "active",
+      "aliases": [
+        "Smoggy",
+        "Zhang Zhao"
+      ],
+      "cached_at": "2026-06-16T13:54:17.000Z"
+    },
+    "https://www.vlr.gg/player/3520/zmjjkk": {
+      "nationality": null,
+      "status": "active",
+      "aliases": [
+        "ZmjjKK",
+        "Zheng Yongkang"
+      ],
+      "cached_at": "2026-06-16T13:54:19.045Z"
+    },
+    "https://www.vlr.gg/player/3017/nobody": {
+      "nationality": null,
+      "status": "active",
+      "aliases": [
+        "nobody",
+        "Wang Senxu"
+      ],
+      "cached_at": "2026-06-16T13:54:20.599Z"
+    }
+  }
+}

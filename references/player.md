@@ -19,10 +19,10 @@
 ## 命令
 
 ```bash
-node scripts/valorant-player.js info <playerKeyword|vlrPlayerId|vlrPlayerUrl>
-node scripts/valorant-player.js stats <playerKeyword|vlrPlayerId|vlrPlayerUrl> [timespan]
-node scripts/valorant-player.js detail <playerKeyword|vlrPlayerId|vlrPlayerUrl> [tab]
-node scripts/valorant-player.js <playerKeyword|vlrPlayerId|vlrPlayerUrl>
+node scripts/valorant-player.js info <playerKeyword|vlrPlayerId|vlrPlayerUrl>      # 查询选手基础信息；优先直连 VLR
+node scripts/valorant-player.js stats <playerKeyword|vlrPlayerId|vlrPlayerUrl> [timespan] # 查询选手统计数据；默认 90 天
+node scripts/valorant-player.js detail <playerKeyword|vlrPlayerId|vlrPlayerUrl> [tab] # 查询选手详情；默认 info + stats
+node scripts/valorant-player.js <playerKeyword|vlrPlayerId|vlrPlayerUrl>            # 默认等价于 info
 ```
 
 其中：
