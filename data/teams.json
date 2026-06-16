@@ -2,8 +2,7 @@
   "version": "1.0.0",
   "updated_at": "2026-06-15",
   "source_strategy": {
-    "primary": "VLR.gg",
-    "secondary": "Liquipedia"
+    "primary": "VLR.gg"
   },
   "scope": "VCT 2026 four regions (Americas, EMEA, Pacific, China)",
   "regions": {
@@ -19,7 +18,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/11058/g2-esports",
           "vlr_team_id": 11058,
-          "current_roster": ["g2-player-1", "g2-player-2", "g2-player-3", "g2-player-4", "g2-player-5"]
+          "current_roster": ["valyn", "jawgemo", "babybay", "trent", "leaf"]
         },
         {
           "id": "nrg",
@@ -30,7 +29,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/1034/nrg",
           "vlr_team_id": 1034,
-          "current_roster": ["nrg-player-1", "nrg-player-2", "nrg-player-3", "nrg-player-4", "nrg-player-5"]
+          "current_roster": ["ethan", "keiko", "brawk", "mada", "skuba"]
         },
         {
           "id": "furia",
@@ -41,7 +40,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/2406/furia",
           "vlr_team_id": 2406,
-          "current_roster": ["furia-player-1", "furia-player-2", "furia-player-3", "furia-player-4", "furia-player-5"]
+          "current_roster": ["mazino", "artzin", "heat", "jzz", "dgzin"]
         },
         {
           "id": "leviatan",
@@ -52,7 +51,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/2359/leviat-n",
           "vlr_team_id": 2359,
-          "current_roster": ["leviatan-player-1", "leviatan-player-2", "leviatan-player-3", "leviatan-player-4", "leviatan-player-5"]
+          "current_roster": ["sato", "kiNgg", "tex", "c0m", "nzr"]
         },
         {
           "id": "100-thieves",
@@ -63,7 +62,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/120/100-thieves",
           "vlr_team_id": 120,
-          "current_roster": ["100t-player-1", "100t-player-2", "100t-player-3", "100t-player-4", "100t-player-5"]
+          "current_roster": ["boostio", "Asuna", "Cryocells", "Eeiu", "bang"]
         },
         {
           "id": "mibr",
@@ -74,7 +73,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/7386/mibr",
           "vlr_team_id": 7386,
-          "current_roster": ["mibr-player-1", "mibr-player-2", "mibr-player-3", "mibr-player-4", "mibr-player-5"]
+          "current_roster": ["artzin", "heat", "n1ssim", "f0rsakeN", "Verno"]
         },
         {
           "id": "kru-esports",
@@ -85,7 +84,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/2355/kr-esports",
           "vlr_team_id": 2355,
-          "current_roster": ["kru-player-1", "kru-player-2", "kru-player-3", "kru-player-4", "kru-player-5"]
+          "current_roster": ["keznit", "Melser", "Shyy", "Axeddy", "NagZ"]
         },
         {
           "id": "loud",
@@ -96,7 +95,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/6961/loud",
           "vlr_team_id": 6961,
-          "current_roster": ["loud-player-1", "loud-player-2", "loud-player-3", "loud-player-4", "loud-player-5"]
+          "current_roster": ["saadhak", "qck", "tuyz", "Less", "v1xen"]
         },
         {
           "id": "envy",
@@ -107,7 +106,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/427/envy",
           "vlr_team_id": 427,
-          "current_roster": ["envy-player-1", "envy-player-2", "envy-player-3", "envy-player-4", "envy-player-5"]
+          "current_roster": ["yay", "moose", "derrek", "aproto", "mitch"]
         },
         {
           "id": "sentinels",
@@ -118,7 +117,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/2/sentinels",
           "vlr_team_id": 2,
-          "current_roster": ["sen-player-1", "sen-player-2", "sen-player-3", "sen-player-4", "sen-player-5"]
+          "current_roster": ["johnqt", "Reduxx", "Jerrwin", "cortezia", "JonahP"]
         },
         {
           "id": "cloud9",
@@ -129,7 +128,18 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/188/cloud9",
           "vlr_team_id": 188,
-          "current_roster": ["c9-player-1", "c9-player-2", "c9-player-3", "c9-player-4", "c9-player-5"]
+          "current_roster": ["FireBallOps", "Zellsis", "Notexxd", "Jackk", "OXY"]
+        },
+        {
+          "id": "evil-geniuses",
+          "name": "Evil Geniuses",
+          "short_name": "EG",
+          "region": "AMERICAS",
+          "aliases": ["Evil Geniuses", "EG"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/15900/evil-geniuses",
+          "vlr_team_id": 15900,
+          "current_roster": []
         }
       ]
     },
@@ -145,7 +155,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/397/bbl-esports",
           "vlr_team_id": 397,
-          "current_roster": ["bbl-player-1", "bbl-player-2", "bbl-player-3", "bbl-player-4", "bbl-player-5"]
+          "current_roster": ["Crewen", "Lar0k", "Loita", "Rosé", "lovers-rock"]
         },
         {
           "id": "fut-esports",
@@ -156,7 +166,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/1184/fut-esports",
           "vlr_team_id": 1184,
-          "current_roster": ["fut-player-1", "fut-player-2", "fut-player-3", "fut-player-4", "fut-player-5"]
+          "current_roster": ["s0pp", "xeus", "yetujey", "KROSTALY", "sociablEE"]
         },
         {
           "id": "team-liquid",
@@ -167,7 +177,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/474/team-liquid",
           "vlr_team_id": 474,
-          "current_roster": ["tl-player-1", "tl-player-2", "tl-player-3", "tl-player-4", "tl-player-5"]
+          "current_roster": ["nAts", "purp0", "MiniBoo", "kamo", "wayne"]
         },
         {
           "id": "fnatic",
@@ -178,7 +188,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/2593/fnatic",
           "vlr_team_id": 2593,
-          "current_roster": ["fnc-player-1", "fnc-player-2", "fnc-player-3", "fnc-player-4", "fnc-player-5"]
+          "current_roster": ["boaster", "crashies", "kaajak", "veqaj", "alfajer"]
         },
         {
           "id": "eternal-fire",
@@ -189,18 +199,40 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/6392/eternal-fire",
           "vlr_team_id": 6392,
-          "current_roster": ["ef-player-1", "ef-player-2", "ef-player-3", "ef-player-4", "ef-player-5"]
+          "current_roster": ["nekky", "Izzy", "audaz", "Favian", "echo"]
         },
         {
           "id": "gentle-mates",
           "name": "Gentle Mates",
-          "short_name": "GM",
+          "short_name": "M8",
           "region": "EMEA",
-          "aliases": ["Gentle Mates", "GM"],
+          "aliases": ["Gentle Mates", "M8", "Gentle Mates Alpine"],
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/12694/gentle-mates",
           "vlr_team_id": 12694,
-          "current_roster": ["gm-player-1", "gm-player-2", "gm-player-3", "gm-player-4", "gm-player-5"]
+          "current_roster": ["starxo", "Proxh", "bipo", "marteen", "Minny"]
+        },
+        {
+          "id": "pcific-esports",
+          "name": "PCIFIC Esports",
+          "short_name": "PCF",
+          "region": "EMEA",
+          "aliases": ["PCIFIC Esports", "PCF"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/21107/pcific-esports",
+          "vlr_team_id": 21107,
+          "current_roster": []
+        },
+        {
+          "id": "karmine-corp",
+          "name": "Karmine Corp",
+          "short_name": "KC",
+          "region": "EMEA",
+          "aliases": ["Karmine Corp", "KC"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/8877/karmine-corp",
+          "vlr_team_id": 8877,
+          "current_roster": ["dos9", "LewN", "Avez", "SUYGETSU", "N4RRATE"]
         },
         {
           "id": "natus-vincere",
@@ -211,7 +243,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/4915/natus-vincere",
           "vlr_team_id": 4915,
-          "current_roster": ["navi-player-1", "navi-player-2", "navi-player-3", "navi-player-4", "navi-player-5"]
+          "current_roster": ["ANGE1", "hiro", "Ruxic", "Shao", "SUYGETSU"]
         },
         {
           "id": "giantx",
@@ -222,7 +254,29 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/14419/giantx",
           "vlr_team_id": 14419,
-          "current_roster": ["gx-player-1", "gx-player-2", "gx-player-3", "gx-player-4", "gx-player-5"]
+          "current_roster": ["Cloud", "westside", "purp0", "runner", "kicks"]
+        },
+        {
+          "id": "team-heretics",
+          "name": "Team Heretics",
+          "short_name": "TH",
+          "region": "EMEA",
+          "aliases": ["Team Heretics", "Heretics", "TH"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/1001/team-heretics",
+          "vlr_team_id": 1001,
+          "current_roster": ["boo", "koshmaras", "wo0t", "riens", "benjyfishy"]
+        },
+        {
+          "id": "team-vitality",
+          "name": "Team Vitality",
+          "short_name": "VIT",
+          "region": "EMEA",
+          "aliases": ["Team Vitality", "Vitality", "VIT"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/2059/team-vitality",
+          "vlr_team_id": 2059,
+          "current_roster": ["jamppi", "profek", "derke", "chronicle", "sayonara"]
         }
       ]
     },
@@ -238,7 +292,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/11060/nongshim-redforce",
           "vlr_team_id": 11060,
-          "current_roster": ["ns-player-1", "ns-player-2", "ns-player-3", "ns-player-4", "ns-player-5"]
+          "current_roster": ["Francis", "allow", "Dambi", "Akame", "Banger"]
         },
         {
           "id": "t1",
@@ -249,7 +303,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/14/t1",
           "vlr_team_id": 14,
-          "current_roster": ["t1-player-1", "t1-player-2", "t1-player-3", "t1-player-4", "t1-player-5"]
+          "current_roster": ["stax", "Meteor", "BuZz", "Sylvan", "iZu"]
         },
         {
           "id": "full-sense",
@@ -260,7 +314,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/4050/full-sense",
           "vlr_team_id": 4050,
-          "current_roster": ["fs-player-1", "fs-player-2", "fs-player-3", "fs-player-4", "fs-player-5"]
+          "current_roster": ["PTC", "JohnOlsen", "Lammysnax", "Crws", "sScary"]
         },
         {
           "id": "paper-rex",
@@ -271,7 +325,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/624/paper-rex",
           "vlr_team_id": 624,
-          "current_roster": ["prx-player-1", "prx-player-2", "prx-player-3", "prx-player-4", "prx-player-5"]
+          "current_roster": ["f0rsakeN", "d4v41", "something", "mindfreak", "PatMen"]
         },
         {
           "id": "global-esports",
@@ -282,7 +336,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/918/global-esports",
           "vlr_team_id": 918,
-          "current_roster": ["ge-player-1", "ge-player-2", "ge-player-3", "ge-player-4", "ge-player-5"]
+          "current_roster": ["Bazzi", "t3xture", "Monyet", "Russ", "Lightningfast"]
         },
         {
           "id": "rex-regum-qeon",
@@ -293,7 +347,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/878/rex-regum-qeon",
           "vlr_team_id": 878,
-          "current_roster": ["rrq-player-1", "rrq-player-2", "rrq-player-3", "rrq-player-4", "rrq-player-5"]
+          "current_roster": ["Estrella", "Lmemore", "Jemkin", "Kush", "Monyet"]
         },
         {
           "id": "kiwoom-drx",
@@ -304,7 +358,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/8185/kiwoom-drx",
           "vlr_team_id": 8185,
-          "current_roster": ["drx-player-1", "drx-player-2", "drx-player-3", "drx-player-4", "drx-player-5"]
+          "current_roster": ["MaKo", "Flashback", "HYUNMIN", "BeYN", "freeing"]
         },
         {
           "id": "detonation-focusme",
@@ -315,7 +369,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/278/detonation-focusme",
           "vlr_team_id": 278,
-          "current_roster": ["dfm-player-1", "dfm-player-2", "dfm-player-3", "dfm-player-4", "dfm-player-5"]
+          "current_roster": ["Meiy", "Akame", "SSeeS", "JoxJo", "gyen"]
         },
         {
           "id": "team-secret",
@@ -326,7 +380,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/6199/team-secret",
           "vlr_team_id": 6199,
-          "current_roster": ["ts-player-1", "ts-player-2", "ts-player-3", "ts-player-4", "ts-player-5"]
+          "current_roster": ["JessieVash", "invy", "2ge", "NDG", "Wild0reoo"]
         },
         {
           "id": "zeta-division",
@@ -337,7 +391,18 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/5448/zeta-division",
           "vlr_team_id": 5448,
-          "current_roster": ["zeta-player-1", "zeta-player-2", "zeta-player-3", "zeta-player-4", "zeta-player-5"]
+          "current_roster": ["Laz", "Dep", "SugarZ3ro", "CLZ", "Xdll"]
+        },
+        {
+          "id": "varrel",
+          "name": "VARREL",
+          "short_name": "VL",
+          "region": "PACIFIC",
+          "aliases": ["VARREL", "VL"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/11229/varrel",
+          "vlr_team_id": 11229,
+          "current_roster": ["Foxy9", "C1ndeR", "Klaus", "XuNa", "oonzmlp", "Zexy"]
         },
         {
           "id": "gen-g",
@@ -348,7 +413,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/17/gen-g",
           "vlr_team_id": 17,
-          "current_roster": ["geng-player-1", "geng-player-2", "geng-player-3", "geng-player-4", "geng-player-5"]
+          "current_roster": ["Lakia", "ZynX", "Ash", "Karon", "t3texture"]
         }
       ]
     },
@@ -375,7 +440,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/1119/all-gamers",
           "vlr_team_id": 1119,
-          "current_roster": ["ag-player-1", "ag-player-2", "ag-player-3", "ag-player-4", "ag-player-5"]
+          "current_roster": ["Spitfires", "Monk", "Bunt", "nephh", "Sword9"]
         },
         {
           "id": "dragon-ranger-gaming",
@@ -386,7 +451,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/11981/dragon-ranger-gaming",
           "vlr_team_id": 11981,
-          "current_roster": ["drg-player-1", "drg-player-2", "drg-player-3", "drg-player-4", "drg-player-5"]
+          "current_roster": ["Nicc", "TvirusLuke", "Shion7", "Yosemite", "SpiritZ1"]
         },
         {
           "id": "bilibili-gaming",
@@ -397,7 +462,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/12010/bilibili-gaming",
           "vlr_team_id": 12010,
-          "current_roster": ["blg-player-1", "blg-player-2", "blg-player-3", "blg-player-4", "blg-player-5"]
+          "current_roster": ["whzy", "rushia", "nephh", "yilai", "Knight"]
         },
         {
           "id": "tyloo",
@@ -408,7 +473,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/731/tyloo",
           "vlr_team_id": 731,
-          "current_roster": ["tyloo-player-1", "tyloo-player-2", "tyloo-player-3", "tyloo-player-4", "tyloo-player-5"]
+          "current_roster": ["splash", "Scales", "Erv", "sword9", "slowly"]
         },
         {
           "id": "jdg-esports",
@@ -419,7 +484,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/13576/jdg-esports",
           "vlr_team_id": 13576,
-          "current_roster": ["jdg-player-1", "jdg-player-2", "jdg-player-3", "jdg-player-4", "jdg-player-5"]
+          "current_roster": ["stew", "jkuro", "zhe", "Yuicaw", "coconut"]
         },
         {
           "id": "edward-gaming",
@@ -430,7 +495,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/1120/edward-gaming",
           "vlr_team_id": 1120,
-          "current_roster": ["edg-player-1", "edg-player-2", "edg-player-3", "edg-player-4", "edg-player-5"]
+          "current_roster": ["ZmjjKK", "CHICHOO", "nobody", "Smoggy", "Jieni7"]
         },
         {
           "id": "funplus-phoenix",
@@ -441,7 +506,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/11328/funplus-phoenix",
           "vlr_team_id": 11328,
-          "current_roster": ["fpx-player-1", "fpx-player-2", "fpx-player-3", "fpx-player-4", "fpx-player-5"]
+          "current_roster": ["BerLIN", "AAAAY", "Ben1Ley", "KovaQ", "Setrod"]
         },
         {
           "id": "titan-esports-club",
@@ -452,7 +517,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/14137/titan-esports-club",
           "vlr_team_id": 14137,
-          "current_roster": ["tec-player-1", "tec-player-2", "tec-player-3", "tec-player-4", "tec-player-5"]
+          "current_roster": ["Haodong", "lucas", "ra1ny", "Spitfires", "Dynamite"]
         },
         {
           "id": "trace-esports",
@@ -463,7 +528,7 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/12685/trace-esports",
           "vlr_team_id": 12685,
-          "current_roster": ["trace-player-1", "trace-player-2", "trace-player-3", "trace-player-4", "trace-player-5"]
+          "current_roster": ["wsleo", "lysoar", "noman", "rarga", "happywei"]
         },
         {
           "id": "nova-esports",
@@ -474,7 +539,18 @@
           "status": "active",
           "vlr_url": "https://www.vlr.gg/team/12064/nova-esports",
           "vlr_team_id": 12064,
-          "current_roster": ["nova-player-1", "nova-player-2", "nova-player-3", "nova-player-4", "nova-player-5"]
+          "current_roster": ["qiutiaN", "kodeth", "OBONE", "Ezeir", "GREEN"]
+        },
+        {
+          "id": "wolves-esports",
+          "name": "Wolves Esports",
+          "short_name": "WOL",
+          "region": "CHINA",
+          "aliases": ["Wolves Esports", "WOL"],
+          "status": "active",
+          "vlr_url": "https://www.vlr.gg/team/13790/wolves-esports",
+          "vlr_team_id": 13790,
+          "current_roster": ["glacier", "yosemite", "Spring", "jowa", "siufatbb"]
         }
       ]
     }
